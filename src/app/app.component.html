@@ -1,0 +1,58 @@
+<h1>NGX Page Click</h1>
+
+<h2>How it works</h2>
+
+<button type="button" class="btn" (click)="disabled = !disabled">
+  Click to {{ disabled ? 'Enable' : 'Disable' }}
+</button>
+
+<p>
+  Please make sure you're using the same binding as used in `ngx-page-click`
+  button
+</p>
+<br />
+<br />
+
+<ngx-page-click
+  class="first-section-wrapper"
+  [disabled]="disabled"
+  [outsideClickHandler]="outsideClickHandler"
+  [listenTo]="on"
+>
+  <h2>First wrapped content</h2>
+  <a (click)="onClick('FIRST CONTENT')">First element with click</a>
+  <p>First element without click</p>
+</ngx-page-click>
+<br />
+<br />
+<br />
+<ngx-page-click
+  class="second-section-wrapper"
+  [disabled]="disabled"
+  [outsideClickHandler]="outsideClickHandler2"
+  [listenTo]="on"
+>
+  <h2>Second wrapped content</h2>
+  <a (click)="onClick('SECOND CONTENT')">Second element with click</a>
+  <p>Second element without click</p>
+</ngx-page-click>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti assumenda
+  quo aliquam nihil excepturi voluptate, eius, velit ut, accusamus consectetur
+  nam rerum dolorem amet quos quibusdam facere ullam sapiente hic?
+</p>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti assumenda
+  quo aliquam nihil excepturi voluptate, eius, velit ut, accusamus consectetur
+  nam rerum dolorem amet quos quibusdam facere ullam sapiente hic?
+</p>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti assumenda
+  quo aliquam nihil excepturi voluptate, eius, velit ut, accusamus consectetur
+  nam rerum dolorem amet quos quibusdam facere ullam sapiente hic?
+</p>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti assumenda
+  quo aliquam nihil excepturi voluptate, eius, velit ut, accusamus consectetur
+  nam rerum dolorem amet quos quibusdam facere ullam sapiente hic?
+</p>

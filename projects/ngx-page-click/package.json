@@ -1,0 +1,29 @@
+{
+  "name": "ngx-page-click",
+  "version": "1.0.1",
+  "description": "Angular module to detect page events outside your wrapped component. Flexible and easy, how it should be ⇢",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "ngx",
+    "click",
+    "outside",
+    "wrapper",
+    "handler",
+    "page",
+    "page-click",
+    "ngx-page-click"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willmendesneto/ngx-page-click.git"
+  },
+  "bugs": {
+    "url": "https://github.com/willmendesneto/ngx-page-click/issues"
+  },
+  "homepage": "https://github.com/willmendesneto/ngx-page-click#readme",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  }
+}
