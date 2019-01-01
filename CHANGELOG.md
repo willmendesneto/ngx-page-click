@@ -7,12 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
 
+### Updated
+
+- Updated docs
+
 ## [1.0.2][] - 2019-01-02
 
 ### Added
 
 - Created `ngx-page-click` module
 
-
-[Unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.2...HEAD
+[unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.2...HEAD
 [1.0.2]: https://github.com/willmendesneto/ngx-page-click/tree/v1.0.2

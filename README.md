@@ -11,7 +11,7 @@
 [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/ngx-page-click.svg)](https://bundlephobia.com/result?p=ngx-page-click)
 [![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](/LICENSE)
 
-![ngx-page-click in action](https://user-images.githubusercontent.com/1252570/50570648-cf1e0100-0de6-11e9-9923-161d1ff0c7ee.gif)
+![ngx-page-click in action](https://user-images.githubusercontent.com/1252570/50573610-9bb19580-0e2b-11e9-9306-0378196108fa.gif)
 
 > Angular module to detect page events outside your wrapped component. Flexible and easy, how it should be ⇢
 
