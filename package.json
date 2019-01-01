@@ -1,7 +1,7 @@
 {
   "name": "ngx-page-click-demo",
   "description": "Angular module to detect page events outside your wrapped component. Flexible and easy, how it should be ⇢",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
