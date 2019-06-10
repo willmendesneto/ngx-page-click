@@ -18,13 +18,15 @@ export class NgxPageClickComponent implements OnInit, OnChanges, OnDestroy {
   listenTo: string[] = ['mousedown', 'touchstart'];
 
   @Input()
-  outsideClickHandler: Function = Function.prototype;
+  outsideClickHandler = Function.prototype;
 
   @Input()
   disabled: boolean;
 
-  private _listeners: Array<Function> = [];
+  // tslint:disable-next-line: variable-name
+  private _listeners: Array<() => void> = [];
 
+  // tslint:disable-next-line: variable-name
   constructor(private _renderer: Renderer2, private _el: ElementRef) {
     this._outsideClickHandlerHandler = this._outsideClickHandlerHandler.bind(
       this
