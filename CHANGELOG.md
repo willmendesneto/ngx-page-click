@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
 
+## [1.0.4][] - 2019-06-10
+
 ### Updated
 
 - Updating Angular CLI to v8
@@ -27,5 +29,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [1.0.2]: https://github.com/willmendesneto/ngx-page-click/tree/v1.0.2
 
 
-[Unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.3...HEAD
+[Unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.4...HEAD
+[1.0.4]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/willmendesneto/ngx-page-click/tree/v1.0.3
