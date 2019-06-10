@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
 
+### Updated
+
+- Updating Angular CLI to v8
+
 ## [1.0.3][] - 2019-01-02
 
 ### Updated
