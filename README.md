@@ -49,11 +49,15 @@ npm install ngx-page-click --save
 You'll need to add `NgxPageClickModule` to your application module. So that, the `<ngx-page-click>` components will be accessible in your application.
 
 ```typescript
+...
+import { NgxPageClickModule } from 'ngx-page-click';
+...
 @NgModule({
   declarations: [
     YourAppComponent
   ],
   imports: [
+    ...
     NgxPageClickModule,
     ...
   ],
