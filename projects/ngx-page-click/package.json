@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/willmendesneto/ngx-page-click#readme",
   "peerDependencies": {
-    "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0"
+    "@angular/common": ">=8.0.0",
+    "@angular/core": ">=8.0.0"
   }
 }
