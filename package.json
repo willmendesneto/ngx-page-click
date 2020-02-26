@@ -83,7 +83,7 @@
   "bundlesize": [
     {
       "path": "./dist/ngx-page-click/bundles/ngx-page-click.umd.min.js",
-      "maxSize": "916B"
+      "maxSize": "918B"
     }
   ]
 }
