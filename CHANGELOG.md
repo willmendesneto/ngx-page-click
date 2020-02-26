@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
 
+## [1.0.5][] - 2020-02-26
+
 ### Updated
 
 - Updating to NodeJS v12.14.1
@@ -38,3 +40,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.4...HEAD
 [1.0.4]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/willmendesneto/ngx-page-click/tree/v1.0.3
+
+
+[Unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.5...HEAD
+[1.0.5]: https://github.com/willmendesneto/ngx-page-click/tree/v1.0.5

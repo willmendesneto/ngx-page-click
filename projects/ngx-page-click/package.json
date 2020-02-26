@@ -1,6 +1,6 @@
 {
   "name": "ngx-page-click",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Angular module to detect page events outside your wrapped component. Flexible and easy, how it should be ⇢",
   "license": "MIT",
   "keywords": [
