@@ -24,21 +24,21 @@ export class NgxPageClickComponent implements OnInit, OnChanges, OnDestroy {
   disabled: boolean;
 
   // tslint:disable-next-line: variable-name
-  private _listeners: Array<() => void> = [];
+  private listeners: Array<() => void> = [];
 
   // tslint:disable-next-line: variable-name
-  constructor(private _renderer: Renderer2, private _el: ElementRef) {
-    this._outsideClickHandlerHandler = this._outsideClickHandlerHandler.bind(
+  constructor(private renderer: Renderer2, private elementRef: ElementRef) {
+    this.outsideClickHandlerHandler = this.outsideClickHandlerHandler.bind(
       this
     );
   }
 
   ngOnInit() {
-    if (!this._el.nativeElement.hasChildNodes()) {
+    if (!this.elementRef.nativeElement.hasChildNodes()) {
       throw new Error('[ngx-page-click] is not wrapping any children element');
     }
     if (!this.disabled) {
-      this._addListeners();
+      this.addListeners();
     }
   }
 
@@ -49,30 +49,30 @@ export class NgxPageClickComponent implements OnInit, OnChanges, OnDestroy {
       changes.disabled.previousValue !== changes.disabled.currentValue
     ) {
       changes.disabled.currentValue
-        ? this._removeListeners()
-        : this._addListeners();
+        ? this.removeListeners()
+        : this.addListeners();
     }
   }
 
   ngOnDestroy() {
-    this._removeListeners();
+    this.removeListeners();
   }
 
-  private _addListeners() {
-    this._listeners = this.listenTo.map(eventTrigger => {
-      return this._renderer.listen(
+  private addListeners() {
+    this.listeners = this.listenTo.map((eventTrigger) => {
+      return this.renderer.listen(
         document,
         eventTrigger,
-        this._outsideClickHandlerHandler
+        this.outsideClickHandlerHandler
       );
     });
   }
 
-  private _removeListeners() {
-    this._listeners.forEach(remove => remove());
+  private removeListeners() {
+    this.listeners.forEach((remove) => remove());
   }
 
-  _outsideClickHandlerHandler(event: Event): void {
+  private outsideClickHandlerHandler(event: Event): void {
     event.stopPropagation();
 
     if (this.disabled) {
