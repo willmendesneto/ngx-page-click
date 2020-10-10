@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
 
+### Fixed
+
+- Fixing bundle size command on CircleCI pipeline
+
 ## [1.1.0][] - 2020-07-18
 
 ### Updated
@@ -50,7 +54,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [1.0.3]: https://github.com/willmendesneto/ngx-page-click/tree/v1.0.3
 [unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.0.5...HEAD
 [1.0.5]: https://github.com/willmendesneto/ngx-page-click/tree/v1.0.5
-
-
-[Unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.1.0...HEAD
+[unreleased]: https://github.com/willmendesneto/ngx-page-click/compare/v1.1.0...HEAD
 [1.1.0]: https://github.com/willmendesneto/ngx-page-click/tree/v1.1.0
